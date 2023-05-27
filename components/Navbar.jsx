@@ -5,7 +5,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <header className="bg-white shadow">
+      <header className="bg-white shadow sticky top-0">
         <div className="container mx-auto px-4 py-6">
           {/* Logo */}
           <div className="flex items-center justify-between">
@@ -19,16 +19,28 @@ const Navbar = () => {
             </div>
             {/* Social media icons */}
             <div className="hidden md:flex space-x-20 items-center">
-              <Link href="" className="text-gray-700 text-lg  font-medium hover:text-primary ">
+              <Link
+                href=""
+                className="text-gray-700 text-lg  font-medium hover:text-primary "
+              >
                 Home
               </Link>
-              <Link href="" className="text-gray-700 text-lg  font-medium hover:text-primary ">
+              <Link
+                href=""
+                className="text-gray-700 text-lg  font-medium hover:text-primary "
+              >
                 About us
               </Link>
-              <Link href="" className="text-gray-700 text-lg  font-medium hover:text-primary ">
+              <Link
+                href=""
+                className="text-gray-700 text-lg  font-medium hover:text-primary "
+              >
                 Services
               </Link>
-              <Link href="" className="text-gray-700 text-lg  font-medium hover:text-primary ">
+              <Link
+                href=""
+                className="text-gray-700 text-lg  font-medium hover:text-primary "
+              >
                 Portfolio
               </Link>
               <div className="px-6 py-2 bg-primary rounded-lg">

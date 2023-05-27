@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HeroUnderconstruction = () => {
   return (
-    <section className="bg-white h-screen py-24 border-t-2">
+    <section className="bg-white h-screen md:py-24 border-t-2">
       <main className="container mx-auto px-4 py-8 flex flex-col md:flex-row w-full ">
         {/* Section 1 */}
         <section className="py-12 md:w-1/2">
